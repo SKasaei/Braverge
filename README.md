@@ -1,5 +1,5 @@
 <p align="center">
- <img width="200" height="200" src="https://github.com/user-attachments/assets/cf3ccf8e-a50a-4d27-b3a1-105cdf4f8473">
+ <img width="300" height="300" src="https://github.com/user-attachments/assets/cf3ccf8e-a50a-4d27-b3a1-105cdf4f8473">
 </p>
 
 # 🌿 Branverge
