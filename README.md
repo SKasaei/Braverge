@@ -1,6 +1,5 @@
-<img align="center">
-![Image](https://github.com/user-attachments/assets/c9a5bf58-f938-4856-adcb-8a7f4368e2fb)
-</img>
+
+<img align="left" width="100" height="100" src="https://picsum.photos/100/100](https://github.com/user-attachments/assets/c9a5bf58-f938-4856-adcb-8a7f4368e2fb">
 
 # 🌿 Branverge
 
