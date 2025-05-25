@@ -1,3 +1,5 @@
+![Image](https://github.com/user-attachments/assets/a5a14789-35a2-4a14-92a6-e125b32b66e5)
+
 # 🌿 Branverge
 
 **Branch boldly. Merge cleanly.**  
