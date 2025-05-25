@@ -2,10 +2,10 @@
  <img width="300" height="300" src="https://github.com/user-attachments/assets/cf3ccf8e-a50a-4d27-b3a1-105cdf4f8473">
 </p>
 
-# 🌿 Branverge
+# 🌿 Braverge
 
 **Branch boldly. Merge cleanly.**  
-Branverge is a modern framework and toolkit for managing the evolution of software models. It supports intelligent **versioning**, **branching**, and **merging** of models — essential for collaborative, model-driven engineering.
+Braverge is a modern framework and toolkit for managing the evolution of software models. It supports intelligent **versioning**, **branching**, and **merging** of models — essential for collaborative, model-driven engineering.
 
 ---
 
@@ -31,8 +31,8 @@ Branverge is a modern framework and toolkit for managing the evolution of softwa
 ## 🚀 Getting Started
 
 ```bash
-git clone https://github.com/your-org/branverge.git
-cd branverge
+git clone https://github.com/.....
+cd braverge
 # install dependencies or build toolkit
 ```
 
