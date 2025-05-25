@@ -30,3 +30,15 @@ Branverge is a modern framework and toolkit for managing the evolution of softwa
 git clone https://github.com/your-org/branverge.git
 cd branverge
 # install dependencies or build toolkit
+
+---
+
+## 📘 Documentation
+
+Full docs coming soon at: ...
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Contact us: smskasaei@gmail.com
