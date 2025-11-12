@@ -1,4 +1,4 @@
-<p align="center">
+<img width="686" height="105" alt="image" src="https://github.com/user-attachments/assets/b9ee4824-e5fb-464a-8961-f7742e5bba78" /><p align="center">
  <img width="300" height="300" src="https://github.com/user-attachments/assets/4785cf46-2481-451d-b793-d5c5a319d3a2">
 </p>
 
@@ -14,6 +14,7 @@ Braverge is a modern framework and toolkit for managing the evolution of softwar
 - 📌 **Model Versioning**: Track changes and evolution of models over time.
 - 🌿 **Branching Support**: Create and manage divergent model paths.
 - 🌿 **Access Control Support**: Branch-level and view-level access control.
+- 🌿 **Lifecycle Management**: classify branches into permanent and temporary states.
 - 🔀 **Smart Merging**: Detect and reconcile differences between model versions.
 - 📚 **Customizable Conflict Handling**: Customizable strategies for resolving merge conflicts.
 - 🧠 **Structure-Aware Comparison**: Deep semantic and structural model comparison.
