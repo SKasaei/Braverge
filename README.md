@@ -13,17 +13,18 @@ Braverge is a modern framework and toolkit for managing the evolution of softwar
 
 - 📌 **Model Versioning**: Track changes and evolution of models over time.
 - 🌿 **Branching Support**: Create and manage divergent model paths.
+- 🌿 **Access Control Support**: Branch-level and view-level access control.
 - 🔀 **Smart Merging**: Detect and reconcile differences between model versions.
-- 📚 **Rule-Based Conflict Handling**: Customizable strategies for resolving merge conflicts.
+- 📚 **Customizable Conflict Handling**: Customizable strategies for resolving merge conflicts.
 - 🧠 **Structure-Aware Comparison**: Deep semantic and structural model comparison.
 
 ---
 
 ## 📦 Use Cases
 
+- Model-Based System Engineering (MBSE)
 - Model-Driven Software Development (MDSD)
 - Collaborative Domain-Specific Language (DSL) modeling
-- Research prototypes and toolchain integrations
 - Complex version control for graphical models
 
 ---
