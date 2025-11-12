@@ -24,7 +24,7 @@ Braverge is a modern framework and toolkit for managing the evolution of softwar
 
 - Model-Based System Engineering (MBSE)
 - Model-Driven Software Development (MDSD)
-- Collaborative Domain-Specific Language (DSL) modeling
+- Collaborative modeling
 - Complex version control for graphical models
 
 ---
