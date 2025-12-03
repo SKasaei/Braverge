@@ -1,5 +1,5 @@
 <p align="center">
- <img width="500" height="500" src="https://github.com/user-attachments/assets/de03f237-f10c-4fc5-8f07-d920aee4cd37">
+ <img width="600" height="600" src="https://github.com/user-attachments/assets/91cb5c8d-325c-43f5-9467-0d89f9e2a2c1">
 </p>
 
 # 🌿 Braverge
