@@ -1,6 +1,7 @@
 <p align="center">
  <img width="300" height="300" src="https://github.com/user-attachments/assets/4785cf46-2481-451d-b793-d5c5a319d3a2">
 </p>
+![logo](https://github.com/user-attachments/assets/de03f237-f10c-4fc5-8f07-d920aee4cd37)
 
 # 🌿 Braverge
 
