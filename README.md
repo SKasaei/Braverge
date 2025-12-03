@@ -4,7 +4,7 @@
 
 # 🌿 Braverge
 
-**Version intelligently. Branch boldly. Merge cleanly.**  
+**Branch boldly! Version intelligently! Merge cleanly!**  
 Braverge is a modern framework and toolkit for managing the evolution of software models. It supports intelligent **versioning**, **branching**, and **merging** of models — essential for collaborative, model-driven engineering.
 
 ---
