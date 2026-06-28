@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<family:FamilyRegister xmlns:xmi="http://www.omg.org/XMI" xmlns:family="http://www.example.org/family" xmi:id="e2ca5aa7-8037-4fb2-8108-5409532fb896" xmi:version="2.0">
+  <families xmi:id="b70317fd306c41c7a54163ac5a6810eb" lastName="Simpson">
+    <father xmi:id="54532b2fcc9d4515bc6c40611668c25a" firstName="Abraham"/>
+    <mother xmi:id="4afbdcbfaa75494490e2b2be2adfd1ec" firstName="Mona"/>
+    <sons xmi:id="f61402381196496387e73e74b7c8d3e7" firstName="Homer"/>
+  </families>
+  <families xmi:id="9c0ab4f0b1d0449cbc5ecc35028879da" lastName="Bouvier">
+    <father xmi:id="8b5883b0d3914808862ab8143a067c74" firstName="Clancy"/>
+    <mother xmi:id="4ed83b8b425546da91d17d9ecc1e40df" firstName="Jacqueline"/>
+    <daughters xmi:id="4fc8b2fa98b14675907a59c97f895618" firstName="Patty"/>
+    <daughters xmi:id="db634b9c70c6486495cea7e9895111f3" firstName="Selma"/>
+    <daughters xmi:id="162404d664e84006bc3cf8c822746b24" firstName="Marge"/>
+  </families>
+</family:FamilyRegister>
