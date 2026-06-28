@@ -90,12 +90,6 @@ This repository accompanies the journal manuscript:
 
 ## Framework Architecture
 
-The figure below illustrates the overall architecture of Braverge.
-
-<p align="center">
-<img src="docs/images/architecture.png" width="900">
-</p>
-
 The framework follows a modular layered architecture consisting of collaboration, version management, branching, merge, conflict management, access control, metadata management, and repository services.
 
 ---
