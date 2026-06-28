@@ -229,11 +229,11 @@ Braverge is applicable to collaborative modeling in domains including:
 If you use Braverge in your research, please cite the accompanying publication.
 
 ```bibtex
-@article{kasaei2026braverge,
-  title   = {Braverge: A Collaborative Model Version Management Framework for Model-Based Systems Engineering},
-  author  = {Seyed Mohammad Sadegh Kasaei and others},
-  journal = {Journal Name},
-  year    = {2026}
+@article{-,
+  title   = {-},
+  author  = {-},
+  journal = {-},
+  year    = {-}
 }
 ```
 
