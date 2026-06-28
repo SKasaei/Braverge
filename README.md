@@ -256,7 +256,7 @@ Please ensure that new contributions include appropriate documentation and tests
 
 ## Contact
 
-**Seyed Mohammad Sadegh Kasaei**
+**Mohammad-Sajad Kasaei**
 
 📧 [smskasaei@gmail.com](mailto:smskasaei@gmail.com)
 
