@@ -173,23 +173,6 @@ examples/
 
 ---
 
-## Reproducing the Paper
-
-This repository contains the artifacts used in the accompanying journal submission.
-
-| Paper Component          | Repository Location |
-| ------------------------ | ------------------- |
-| Framework Implementation | `source/`           |
-| Architecture             | `docs/`             |
-| Example Projects         | `examples/`         |
-| Benchmark Models         | `datasets/`         |
-| Experimental Evaluation  | `experiments/`      |
-| Test Cases               | `tests/`            |
-| Supplementary Material   | `paper/`            |
-
-Additional documentation for reproducing the experimental evaluation is provided in the `experiments/` directory.
-
----
 
 ## Documentation
 
