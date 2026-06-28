@@ -1,21 +1,22 @@
+
 <p align="center">
- <img width="900" height="250" src="https://github.com/user-attachments/assets/91cb5c8d-325c-43f5-9467-0d89f9e2a2c1">
+  <img width="900" height="250" src="https://github.com/user-attachments/assets/91cb5c8d-325c-43f5-9467-0d89f9e2a2c1">
 </p>
 
 <p align="center">
 
 **Branch boldly! Version intelligently! Merge cleanly!**
 
-*A Collaborative Framework for Model Version Management in Model-Based Systems Engineering*
+*A Collaborative Model Version Management Framework for Model-Based Systems Engineering*
 
 </p>
 
 <p align="center">
 
-![GitHub release](https://img.shields.io/github/v/release/USERNAME/braverge?style=for-the-badge)
-![License](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)
-![Java](https://img.shields.io/badge/Java-17+-orange?style=for-the-badge)
-![Platform](https://img.shields.io/badge/platform-Eclipse%20EMF-blue?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-green.svg)
+![Java](https://img.shields.io/badge/Java-17+-orange.svg)
+![Platform](https://img.shields.io/badge/Platform-Eclipse%20EMF-blue.svg)
+![Status](https://img.shields.io/badge/Status-Research%20Prototype-success.svg)
 
 </p>
 
@@ -23,272 +24,122 @@
 
 ## Overview
 
-**Braverge** is a collaborative model version management framework designed for **Model-Based Systems Engineering (MBSE)** and **Model-Driven Engineering (MDE)**. It enables engineering teams to collaboratively develop, evolve, and maintain software and system models through integrated support for model versioning, branching, merging, conflict management, and access control.
+Braverge is a collaborative framework for **model version management** in **Model-Based Systems Engineering (MBSE)** and **Model-Driven Engineering (MDE)**. It provides integrated support for **model versioning**, **branching**, **merging**, **conflict management**, and **fine-grained access control**, enabling distributed teams to collaboratively evolve engineering models while preserving consistency and traceability.
 
-Unlike conventional version control systems that operate on textual representations of models (e.g., XMI), Braverge manages models at the structural level, preserving their semantics throughout the evolution process. The framework is independent of specific modeling tools, repositories, and metamodels, making it suitable for heterogeneous engineering environments.
+Unlike traditional version control systems that operate on textual model serializations (e.g., XMI), Braverge performs model-aware operations based on the structural representation of models. The framework is independent of specific modeling tools, repositories, and metamodels, making it suitable for heterogeneous engineering environments.
 
-Braverge has been developed to support collaborative engineering processes involving distributed teams, multiple stakeholders, and concurrent model evolution while maintaining consistency, traceability, and interoperability.
+This repository accompanies the journal manuscript:
 
----
-
-# Key Features
-
-## 🌱 Model Version Management
-
-Maintain complete histories of model evolution with version metadata, timestamps, authorship, and traceability information.
-
-* Complete version history
-* Version metadata
-* Model snapshots
-* Change tracking
-* Version comparison
+> **Coming Soon**
 
 ---
 
-## 🌿 Branch Management
+## Key Features
 
-Support parallel model development through lightweight branches.
+* 🌱 **Model Version Management**
 
-* Permanent and temporary branches
-* Hierarchical branch organization
-* Branch lifecycle management
-* Branch synchronization
-* Branch metadata
+  * Version history
+  * Model snapshots
+  * Change tracking
+  * Metadata management
 
----
+* 🌿 **Branch Management**
 
-## 🔀 Intelligent Model Merging
+  * Hierarchical branching
+  * Permanent and temporary branches
+  * Branch synchronization
+  * Branch lifecycle management
 
-Braverge provides bidirectional three-way merge operations supporting both:
+* 🔀 **Bidirectional Three-Way Merge**
 
-* **Update** (integrating changes from parent branches)
-* **Merge** (integrating completed work into parent branches)
+  * Update operations
+  * Merge operations
+  * Automatic merge
+  * Semi-automatic conflict resolution
 
-Features include:
+* ⚠ **Conflict Management**
 
-* Automatic merging
-* Semi-automatic conflict resolution
-* Manual conflict handling
-* Merge previews
-* Merge history
+  * Structure-aware conflict detection
+  * Conflict classification
+  * Manual conflict resolution support
 
----
+* 🔐 **Fine-Grained Access Control**
 
-## ⚠ Conflict Management
+  * Branch-level permissions
+  * View-based access control
+  * Stakeholder-oriented collaboration
 
-The framework detects and manages model conflicts using structure-aware analysis.
+* 👥 **Multi-View Collaboration**
 
-Supported conflict categories include:
+  * Concern-oriented model views
+  * Synchronized editing
+  * Collaborative model development
 
-* Element addition conflicts
-* Element deletion conflicts
-* Update conflicts
-* Move conflicts
-* Reference conflicts
-* Attribute conflicts
-* Cross-reference inconsistencies
-* Composite conflicts
+* 🔍 **Structure-Aware Model Comparison**
 
----
+  * Semantic differencing
+  * Structural comparison
+  * Change analysis
 
-## 🔐 Fine-Grained Access Control
+* 📄 **Change Representation**
 
-Braverge introduces a dual-layer security mechanism.
-
-### Branch-level permissions
-
-* Owner
-* Administrator
-* Developer
-* Reviewer
-* Guest
-
-### View-level permissions
-
-Stakeholders can access only the model views relevant to their responsibilities, reducing complexity while protecting sensitive model information.
+  * Braverge Change Operation Syntax (BCOS)
+  * Branch Metadata Schema (BMS)
 
 ---
 
-## 👥 Multi-View Collaboration
+## Framework Architecture
 
-Collaborative engineering often requires different stakeholders to work on different aspects of a system.
+The figure below illustrates the overall architecture of Braverge.
 
-Braverge supports synchronized model views that enable:
+<p align="center">
+<img src="docs/images/architecture.png" width="900">
+</p>
 
-* Discipline-specific modeling
-* Concern separation
-* Reduced cognitive complexity
-* Collaborative editing
-* View synchronization
+The framework follows a modular layered architecture consisting of collaboration, version management, branching, merge, conflict management, access control, metadata management, and repository services.
 
 ---
 
-## 🔍 Structure-Aware Model Comparison
+## Repository Structure
 
-Instead of comparing text files, Braverge compares model structures.
-
-Comparison considers:
-
-* Elements
-* Attributes
-* References
-* Hierarchies
-* Relationships
-* Structural modifications
-
-This enables significantly more meaningful differencing and merging than conventional text-based version control systems.
-
----
-
-## 📝 Change Operation Representation
-
-Braverge introduces the **Braverge Change Operation Syntax (BCOS)** for representing model modifications in a structured and implementation-independent format.
-
-BCOS enables:
-
-* Model evolution tracking
-* Version reconstruction
-* Merge support
-* Conflict analysis
-* History inspection
-
----
-
-## 📚 Branch Metadata Schema
-
-Branch information is managed using the **Branch Metadata Schema (BMS)**.
-
-The schema maintains:
-
-* Branch identifiers
-* Parent-child relationships
-* Creation history
-* Authors
-* Permissions
-* Status
-* Merge history
-* Branch lifecycle information
-
----
-
-# Framework Architecture
-
-Braverge follows a layered architecture separating collaborative concerns from version management mechanisms.
-
-The framework consists of several major components:
-
-* Collaboration Layer
-* Branch Management
-* Version Management
-* Merge Engine
-* Conflict Management
-* Access Control
-* Multi-View Manager
-* Metadata Management
-* Repository Layer
-
-This modular architecture enables extensibility while remaining independent of modeling technologies and repositories.
-
----
-
-# Typical Workflow
-
-A typical collaborative development process consists of:
-
-1. Create a project.
-2. Initialize the main branch.
-3. Create feature branches.
-4. Develop models collaboratively.
-5. Commit model changes.
-6. Synchronize branches.
-7. Resolve merge conflicts.
-8. Merge completed branches.
-9. Release stable versions.
-
----
-
-# Repository Structure
-
-```
+```text
 braverge/
 │
-├── docs/
-│   ├── architecture/
-│   ├── user-guide/
-│   ├── developer-guide/
-│   └── api/
+├── docs/                  # Documentation
+├── source/                # Framework implementation
+├── examples/              # Example modeling projects
+├── experiments/           # Experimental evaluation
+├── datasets/              # Benchmark datasets
+├── tests/                 # Test cases
+├── figures/               # Paper figures
+├── paper/                 # Supplementary material
 │
-├── source/
-│   ├── backend/
-│   ├── frontend/
-│   ├── services/
-│   └── utilities/
-│
-├── examples/
-│
-├── experiments/
-│   ├── benchmark/
-│   ├── empirical-study/
-│   └── evaluation/
-│
-├── datasets/
-│
-├── tests/
-│
-├── figures/
-│
-├── paper/
-│
-└── README.md
+├── README.md
+├── LICENSE
+└── CITATION.cff
 ```
 
 ---
 
-# Research Contributions
+## System Requirements
 
-Braverge introduces several research contributions to collaborative model management:
-
-* Unified collaborative model version management framework
-* Comparison-based model versioning approach
-* Branch Metadata Schema (BMS)
-* Braverge Change Operation Syntax (BCOS)
-* Hierarchical branch management
-* Fine-grained branch and view access control
-* Bidirectional three-way model merging
-* Comprehensive conflict management framework
-* Repository-independent architecture
-* Tool-independent collaborative modeling infrastructure
+* Java 17 or newer
+* Eclipse Modeling Framework (EMF)
+* Eclipse IDE (recommended)
+* Maven or Gradle
+* Git
 
 ---
 
-# Applications
-
-Braverge is suitable for numerous engineering domains including:
-
-* Model-Based Systems Engineering (MBSE)
-* Model-Driven Engineering (MDE)
-* Software Architecture Modeling
-* Automotive Systems
-* Aerospace Engineering
-* Robotics
-* Industrial Automation
-* Digital Twins
-* Cyber-Physical Systems
-* Smart Manufacturing
-* Embedded Systems
-* Internet of Things (IoT)
-
----
-
-# Installation
+## Installation
 
 Clone the repository
 
 ```bash
-git clone https://github.com/USERNAME/braverge.git
+git clone https://github.com/<username>/braverge.git
 ```
 
-Move into the project directory
+Navigate to the project directory
 
 ```bash
 cd braverge
@@ -297,62 +148,106 @@ cd braverge
 Build the project
 
 ```bash
-# Build instructions will be provided
+mvn clean install
 ```
 
-Additional installation instructions and dependencies are available in the documentation.
+or
+
+```bash
+gradle build
+```
+
+Detailed installation instructions are available in the `docs/` directory.
 
 ---
 
-# Documentation
+## Quick Start
 
-Documentation includes:
+A typical workflow consists of the following steps:
+
+1. Import one of the example projects.
+2. Create a feature branch.
+3. Modify the model.
+4. Commit the changes.
+5. Synchronize with the parent branch.
+6. Resolve any detected conflicts.
+7. Merge the branch back into the main development branch.
+
+Example projects are available in:
+
+```text
+examples/
+```
+
+---
+
+## Reproducing the Paper
+
+This repository contains the artifacts used in the accompanying journal submission.
+
+| Paper Component          | Repository Location |
+| ------------------------ | ------------------- |
+| Framework Implementation | `source/`           |
+| Architecture             | `docs/`             |
+| Example Projects         | `examples/`         |
+| Benchmark Models         | `datasets/`         |
+| Experimental Evaluation  | `experiments/`      |
+| Test Cases               | `tests/`            |
+| Supplementary Material   | `paper/`            |
+
+Additional documentation for reproducing the experimental evaluation is provided in the `experiments/` directory.
+
+---
+
+## Documentation
+
+Documentation included in this repository:
 
 * User Guide
+* Installation Guide
 * Developer Guide
-* Architecture Documentation
+* Framework Architecture
 * API Documentation
-* Examples
-* Tutorials
-* Benchmark Reproduction Guide
+* Example Projects
+* Experimental Reproducibility Guide
 
 ---
 
-# Reproducing the Experiments
+## Example Applications
 
-The repository contains all artifacts required to reproduce the experimental evaluation reported in the accompanying publication.
+Braverge is applicable to collaborative modeling in domains including:
 
-These include:
-
-* Benchmark datasets
-* Experimental scripts
-* Example models
-* Configuration files
-* Evaluation results
-* Supplementary material
-
-Detailed instructions are provided in the `experiments/` directory.
+* Model-Based Systems Engineering (MBSE)
+* Model-Driven Engineering (MDE)
+* Cyber-Physical Systems
+* Embedded Systems
+* Industrial Automation
+* Robotics
+* Automotive Systems
+* Aerospace Systems
+* Digital Twins
+* Smart Manufacturing
 
 ---
 
-# Citation
+## Citation
 
 If you use Braverge in your research, please cite the accompanying publication.
 
 ```bibtex
 @article{kasaei2026braverge,
-  title={Braverge: A Collaborative Model Version Management Framework for Model-Based Systems Engineering},
-  author={Kasaei, Seyed Mohammad Sadegh and others},
-  journal={...},
-  year={2026}
+  title   = {Braverge: A Collaborative Model Version Management Framework for Model-Based Systems Engineering},
+  author  = {Seyed Mohammad Sadegh Kasaei and others},
+  journal = {Journal Name},
+  year    = {2026}
 }
 ```
 
 ---
 
-# Contributing
+## Contributing
 
-Contributions are welcome.
+Contributions, bug reports, and feature requests are welcome.
 
 If you would like to contribute:
 
@@ -361,11 +256,11 @@ If you would like to contribute:
 3. Commit your changes.
 4. Submit a pull request.
 
-Bug reports, feature requests, and discussions are greatly appreciated.
+Please ensure that new contributions include appropriate documentation and tests.
 
 ---
 
-# Contact
+## Contact
 
 **Seyed Mohammad Sadegh Kasaei**
 
@@ -373,14 +268,14 @@ Bug reports, feature requests, and discussions are greatly appreciated.
 
 ---
 
-# License
+## License
 
-This project is released under the **MIT License**.
+This project is distributed under the **MIT License**.
 
-See the `LICENSE` file for details.
+See the `LICENSE` file for additional information.
 
 ---
 
-# Acknowledgements
+## Acknowledgements
 
-Braverge has been developed as part of ongoing research on collaborative model version management, model evolution, and distributed Model-Based Systems Engineering. We thank all collaborators, reviewers, and contributors whose feedback has helped shape the framework.
+Braverge has been developed as part of ongoing research on collaborative model version management for Model-Based Systems Engineering and Model-Driven Engineering. We thank all collaborators and reviewers for their valuable feedback throughout the development of the framework.
