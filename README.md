@@ -174,20 +174,6 @@ examples/
 ---
 
 
-## Documentation
-
-Documentation included in this repository:
-
-* User Guide
-* Installation Guide
-* Developer Guide
-* Framework Architecture
-* API Documentation
-* Example Projects
-* Experimental Reproducibility Guide
-
----
-
 ## Example Applications
 
 Braverge is applicable to collaborative modeling in domains including:
