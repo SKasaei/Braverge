@@ -13,10 +13,10 @@
 
 <p align="center">
 
+![Python](https://img.shields.io/badge/Python-3.10+-3776AB?logo=python&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
-![Java](https://img.shields.io/badge/Java-17+-orange.svg)
-![Platform](https://img.shields.io/badge/Platform-Eclipse%20EMF-blue.svg)
 ![Status](https://img.shields.io/badge/Status-Research%20Prototype-success.svg)
+![Platform](https://img.shields.io/badge/Platform-Cross--Platform-blue.svg)
 
 </p>
 
