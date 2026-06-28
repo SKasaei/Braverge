@@ -119,54 +119,57 @@ braverge/
 
 To run Braverge, the following software is required:
 
-* **Python 3.10** or later (Python 3.11 recommended)
-* **Git** (for cloning the repository)
-* A supported operating system:
-
-  * Windows 10/11
-  * Linux (Ubuntu 22.04 or later recommended)
-  * macOS 12 or later
-
-### Python Dependencies
-
-All required Python packages can be installed using:
-
-```bash
-pip install -r requirements.txt
-```
-
-The list of required packages is maintained in the `requirements.txt` file.
-
+* Python **3.10** or later (Python 3.11 recommended)
+* Git (for cloning the repository)
+* Graphviz (required for graph visualization)
+* Windows 10/11, Linux, or macOS
 
 ---
 
 ## Installation
 
-Clone the repository
+### 1. Clone the repository
 
 ```bash
-git clone https://github.com/<username>/braverge.git
+git clone https://github.com/<username>/Braverge.git
 ```
 
-Navigate to the project directory
+### 2. Navigate to the project directory
 
 ```bash
-cd braverge
+cd Braverge
 ```
 
-Build the project
+### 3. (Optional) Create a virtual environment
+
+Windows
 
 ```bash
-mvn clean install
+python -m venv venv
+venv\Scripts\activate
 ```
 
-or
+Linux/macOS
 
 ```bash
-gradle build
+python3 -m venv venv
+source venv/bin/activate
 ```
 
-Detailed installation instructions are available in the `docs/` directory.
+### 4. Install the required Python packages
+
+```bash
+pip install -r requirements.txt
+```
+
+### 5. Run Braverge
+
+```bash
+python main.py
+```
+
+The Braverge graphical user interface will launch, allowing you to create or open a repository and begin collaborative model version management.
+
 
 ---
 
