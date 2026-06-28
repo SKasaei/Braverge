@@ -140,29 +140,13 @@ git clone https://github.com/<username>/Braverge.git
 cd Braverge
 ```
 
-### 3. (Optional) Create a virtual environment
-
-Windows
-
-```bash
-python -m venv venv
-venv\Scripts\activate
-```
-
-Linux/macOS
-
-```bash
-python3 -m venv venv
-source venv/bin/activate
-```
-
-### 4. Install the required Python packages
+### 3. Install the required Python packages
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 5. Run Braverge
+### 4. Run Braverge
 
 ```bash
 python main.py
