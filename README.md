@@ -1,5 +1,3 @@
-# <p align="center">🌿 Braverge</p>
-
 <p align="center">
  <img width="900" height="250" src="https://github.com/user-attachments/assets/91cb5c8d-325c-43f5-9467-0d89f9e2a2c1">
 </p>
