@@ -30,7 +30,7 @@ Unlike traditional version control systems that operate on textual model seriali
 
 This repository accompanies the journal manuscript:
 
-> **Coming Soon**
+> **Coming Soon-International Journal on Software and Systems Modeling (SoSyM)**
 
 ---
 
