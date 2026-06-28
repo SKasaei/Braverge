@@ -117,11 +117,26 @@ braverge/
 
 ## System Requirements
 
-* Java 17 or newer
-* Eclipse Modeling Framework (EMF)
-* Eclipse IDE (recommended)
-* Maven or Gradle
-* Git
+To run Braverge, the following software is required:
+
+* **Python 3.10** or later (Python 3.11 recommended)
+* **Git** (for cloning the repository)
+* A supported operating system:
+
+  * Windows 10/11
+  * Linux (Ubuntu 22.04 or later recommended)
+  * macOS 12 or later
+
+### Python Dependencies
+
+All required Python packages can be installed using:
+
+```bash
+pip install -r requirements.txt
+```
+
+The list of required packages is maintained in the `requirements.txt` file.
+
 
 ---
 
