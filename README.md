@@ -102,11 +102,7 @@ braverge/
 ├── docs/                  # Documentation
 ├── source/                # Framework implementation
 ├── examples/              # Example modeling projects
-├── experiments/           # Experimental evaluation
-├── datasets/              # Benchmark datasets
-├── tests/                 # Test cases
-├── figures/               # Paper figures
-├── paper/                 # Supplementary material
+├── experiments/           # Empirical and Experimental evaluation
 │
 ├── README.md
 ├── LICENSE
