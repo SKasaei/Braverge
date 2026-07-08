@@ -151,7 +151,7 @@ To run Braverge, the following software is required:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/<username>/Braverge.git
+git clone https://github.com/SKasaei/Braverge.git
 ```
 
 ### 2. Navigate to the project directory
