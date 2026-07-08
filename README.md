@@ -34,6 +34,29 @@ This repository accompanies the journal manuscript:
 
 ---
 
+## Tutorials
+
+To help users get started with Braverge, a collection of video tutorials is available. The playlist demonstrates the main features of the framework, including repository creation, model versioning, branching, merging, conflict management, and collaborative workflows.
+
+📺 **Official Braverge Video Tutorials**
+
+[Braverge Official YouTube Playlist](https://www.youtube.com/playlist?list=PLgVoclgulFnQ039tyl5yltIGf_gru7r4C&utm_source=chatgpt.com)
+
+The playlist includes tutorials covering:
+
+* Installing and launching Braverge
+* Creating and managing repositories
+* Importing engineering models
+* Creating and managing branches
+* Comparing model versions
+* Merging branches
+* Resolving conflicts
+* Managing collaborative projects
+* Using advanced Braverge features
+
+New tutorials will be added as the framework evolves.
+---
+
 ## Key Features
 
 * 🌱 **Model Version Management**
@@ -85,30 +108,6 @@ This repository accompanies the journal manuscript:
 
   * Braverge Change Operation Syntax (BCOS)
   * Branch Metadata Schema (BMS)
-
----
-
-## Tutorials
-
-To help users get started with Braverge, a collection of video tutorials is available. The playlist demonstrates the main features of the framework, including repository creation, model versioning, branching, merging, conflict management, and collaborative workflows.
-
-📺 **Official Braverge Video Tutorials**
-
-[Braverge Official YouTube Playlist](https://www.youtube.com/playlist?list=PLgVoclgulFnQ039tyl5yltIGf_gru7r4C&utm_source=chatgpt.com)
-
-The playlist includes tutorials covering:
-
-* Installing and launching Braverge
-* Creating and managing repositories
-* Importing engineering models
-* Creating and managing branches
-* Comparing model versions
-* Merging branches
-* Resolving conflicts
-* Managing collaborative projects
-* Using advanced Braverge features
-
-New tutorials will be added as the framework evolves.
 
 ---
 
