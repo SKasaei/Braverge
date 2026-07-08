@@ -55,6 +55,7 @@ The playlist includes tutorials covering:
 * Using advanced Braverge features
 
 New tutorials will be added as the framework evolves.
+
 ---
 
 ## Key Features
